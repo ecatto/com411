@@ -1,5 +1,4 @@
 #beep  
-#beep  
 print("        O         ")
 print("        |         ")
 print("        |         ")
