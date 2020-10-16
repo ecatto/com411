@@ -19,3 +19,6 @@ bmi=weight/(height*height)
 
 #display user info
 print(str(name),"you are",int(age),"years old and your bmi is",round(bmi,2))
+
+#display user info alternative 3
+#print(str(name),"you are",int(age),"years old and your bmi is",("%.2f" %bmi))
