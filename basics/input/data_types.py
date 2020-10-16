@@ -1,15 +1,22 @@
 
 #ask user name
-What is your name human?
-name =input()
+print("What is your name human?")
+name =str(input())
 
-How old are you (in years)?
-age = input()
+#ask user age
+print("How old are you (in years)?")
+age = int(input())
 
-How tall are you (in meters)?
-height = input ()
+#ask user height
+print("How tall are you (in meters)?")
+height = float(input ())
 
-How much do you weigh (in kilograms)?
-85
+#ask user weight
+print("How much do you weigh (in kilograms)?")
+weight =float(input())
 
-Prins you are 36 years old and your bmi is 26.23.
+#calculate bmi
+bmi=round(weight/(height*height),2)
+
+#display user info
+print((name),"you are",(age),"years old and your bmi is",bmi)
