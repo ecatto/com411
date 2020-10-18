@@ -18,7 +18,14 @@ weight =float(input())
 bmi=weight/(height*height)
 
 #display user info
+<<<<<<< HEAD
 #print(str(name) +"you are",int(age),"years old and your bmi is",round(bmi,2))
 
 #display user info alternative 3
 print(str(name),"you are",int(age),"years old and your bmi is {:.2f}" .format(bmi))
+=======
+print(str(name),"you are",int(age),"years old and your bmi is",round(bmi,2))
+
+#display user info alternative 3
+#print(str(name),"you are",int(age),"years old and your bmi is",("%.2f" %bmi))
+>>>>>>> 0d020f8dafa72ebef3901f0b9dd552d7854bef51
