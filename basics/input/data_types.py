@@ -19,4 +19,4 @@ weight =float(input())
 bmi=round(weight/(height*height),2)
 
 #display user info
-print((name),"you are",(age),"years old and your bmi is",bmi)
+print((name),"you are",age,"years old and your bmi is",bmi)
