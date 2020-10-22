@@ -5,4 +5,6 @@ if response == "calculate":
   print("Performing calculations...")
 
 else :
-  print("Activity completed!")
+  print("Performing activity....")
+
+print("Activity completed!")
