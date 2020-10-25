@@ -10,3 +10,4 @@ if (response.lower() == "two red eyes") and (hear.lower() =="grrr"):
 
 else :
   print("I am a little scared but I will continue")
+
