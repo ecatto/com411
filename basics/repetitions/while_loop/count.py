@@ -12,6 +12,9 @@ while (count < live) :
   count = count +1
   print("Avoiding...Done! {} live cables avoided".format(count))
 
+while (count<live) :
+  print("")(count = count +1), print("")
+
 #Finally, the program should display the message "All live cables have been avoided."
 
 print("\nAll live cables have been avoided")
