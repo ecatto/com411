@@ -13,8 +13,7 @@ count = 0
 
 while (count < answer) :
   count = count +1
-  print("\nCharging: ",end="")
-  print("█ "*count)
+  print("\nCharging: ","█ "*count)
 
 #Finally, the program should display the message 
 print("\nThe battery is fully charged.")
