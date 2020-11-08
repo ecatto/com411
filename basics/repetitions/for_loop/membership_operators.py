@@ -1,12 +1,14 @@
-The program should begin by displaying the message "What phrase do you see?".
-The program should then read in the user's response
-Finally, the program should use a for loop with an appropriate membership operator to display the phrase in reverse.
+#The program should begin by displaying the message
+print("What phrase do you see?")
+phrase = input()
 
-An example run of such a program is shown below:
+print("reversing...")
 
-What phrase do you see?
-sucoP sucoH
- 
-Reversing...
+phrase_2 = ""
 
-The phrase is: Hocus Pocus
+for letter in phrase:
+  phrase_2 = letter + phrase_2
+
+print(phrase_2)
+
+
