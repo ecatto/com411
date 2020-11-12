@@ -9,3 +9,4 @@ def cross_bridge(steps):
 
 cross_bridge(3)
 cross_bridge(6)
+
