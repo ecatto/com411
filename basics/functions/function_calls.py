@@ -23,7 +23,6 @@ def repeat(word):
     else:
       uppercase(word)
 
-
 #Beep and Bop wish to create a program which manipulate cryptic words. 
 def run ():
   print("Please enter a word")
