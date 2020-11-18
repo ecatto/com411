@@ -1,15 +1,16 @@
-def display_ladder(steps):
-  for count in range (steps):
-    print("*****")
-    print("*   *")
-    print("*   *")
+def run():
+  def display_ladder(steps):
+    for count in range (steps):
+      print("*****")
+      print("*   *")
+      print("*   *")
 
 
-def create_ladder():
-  print("Please enter the number of steps")
-  num_steps = int(input())
+  def create_ladder():
+    print("Please enter the number of steps")
+    num_steps = int(input())
 
-  display_ladder(num_steps)
+    display_ladder(num_steps)
 
-create_ladder()
+  create_ladder()
 

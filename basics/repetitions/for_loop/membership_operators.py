@@ -1,14 +1,15 @@
-#The program should begin by displaying the message
-print("What phrase do you see?")
-phrase = input()
+def run():
+  #The program should begin by displaying the message
+  print("What phrase do you see?")
+  phrase = input()
 
-print("reversing...")
+  print("reversing...")
 
-phrase_2 = ""
+  phrase_2 = ""
 
-for letter in phrase:
-  phrase_2 = letter + phrase_2
+  for letter in phrase:
+    phrase_2 = letter + phrase_2
 
-print(phrase_2)
+  print(phrase_2)
 
 
