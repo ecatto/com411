@@ -8,9 +8,15 @@ def run():
   bad_steps = []
   for count in range (len(var)):
     if (var[count][1]>=50):
+<<<<<<< HEAD
       bad_steps.append(var[count])
     else:
       good_steps.append(var[count])
+=======
+      good_steps.append(var[count])
+    else:
+      bad_steps.append(var[count])
+>>>>>>> c7bd4c6022b71034b2d8ec94a068d6c19c386f5e
 
   print( "Good steps: {}, Bad steps: {}".format(len(good_steps), len(bad_steps)))
 
