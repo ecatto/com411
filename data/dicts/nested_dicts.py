@@ -22,6 +22,12 @@ def run():
   for key, value in full_dict.items():
     print(f"{key} : {value}")
 
+    print("")
+
+  for pair in full_dict:
+    print(f"{full_dict[pair]}")
+
+
 
 run()
 

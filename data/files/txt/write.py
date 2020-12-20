@@ -15,7 +15,6 @@ def search(file_name):
 
 def save(file_name,data_tup):
   print("Saving...")
-  meh = [data_tup]
   with open(file_name,"w") as file:
     file.write(f"Sections: [{data_tup[0]}]\n")
     file.write(f"Books: [{data_tup[1]}]")
