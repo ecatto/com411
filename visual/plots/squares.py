@@ -5,10 +5,17 @@ def small():
   plt.plot([3,4], [4,4], 'ro:')
   plt.plot([3,3], [3,4], 'ro:')
   plt.plot([4,4], [3,4], 'ro:')
+<<<<<<< HEAD
   #def small():
   #x = [3, 3, 4, 4, 3]
   #y = [3, 4, 4, 3, 3]
   #plt.plot(x, y, 'r:o')
+=======
+  def small():
+  x = [3, 3, 4, 4, 3]
+  y = [3, 4, 4, 3, 3]
+  plt.plot(x, y, 'r:o')
+>>>>>>> 31d1fbd233fa47773e23b39b8ac1b6af0e3ecec5
 
 
 def medium():
