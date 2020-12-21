@@ -1,15 +1,29 @@
 import matplotlib.pyplot as plt
 
-names = ['group_a', 'group_b', 'group_c']
-values = [1, 10, 100]
+def coordinate():
+  print("Please enter an x value")
+  x = input()
+  print("Please enter an y value")
+  y = input()
+  return (x,y)
 
-#plt.figure(figsize=(9, 3))
+def path():
+  print("Retrieving path...")
+  x_values = []
+  y_values = []
+  for count in range (4):
+    data = coordinate()
+    x_values.append(data[0])
+    y_values.append(data[1])
+  return [x_values,y_values]
 
-plt.subplot(311)
-plt.bar(names, values)
-plt.subplot(312)
-plt.scatter(names, values)
-plt.subplot(313)
-plt.plot(names, values)
-#plt.suptitle('Categorical Plotting')
-plt.show()
+def run():
+  values = path()
+  plt.title("test data here")
+  plt.plot(values[0], values[1],"r--o")  
+  plt.xlabel("x values")
+  plt.ylabel("y values")
+
+  plt.show()
+
+run()

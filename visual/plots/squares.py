@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 def small():
   x = [3,4,4,3,3]
   y = [3,3,4,4,3]
-  plt.plot(x,y,"o:r")
+  format = "o:r"
+  #print(format)
+  plt.plot(x,y,format)
 
 def medium():
   x = [2,5,5,2,2]
